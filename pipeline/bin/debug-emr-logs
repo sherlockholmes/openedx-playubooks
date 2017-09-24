@@ -1,0 +1,10 @@
+#!/home/ubuntu/pipeline/bin/python
+# PBR Generated from u'console_scripts'
+
+import sys
+
+from edx.analytics.tasks.tools.debug_emr_logs import main
+
+
+if __name__ == "__main__":
+    sys.exit(main())
